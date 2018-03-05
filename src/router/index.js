@@ -12,14 +12,9 @@ import notFound from '@/components/notFound';
 const router = new VueRouter({
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'home',
             component: home,
-        },
-        {
-            path: '/index',
-            name: 'index',
-            component: index,
         },
         {
             path: '/record',

@@ -1,14 +1,7 @@
 <template>
     <div>
-        <!-- <index/> -->
         <div class="hyxd_body">
-            <div class="xui_item">
-                <label>your name: </label>
-                <div class="xui_content xui_input_search">
-                    <input type="text" class="xui_input" v-model="name" placeholder="type here" />
-                </div>
-            </div>
-            <button class="xui_btn xui_btn_default" @click="handleToSearch">search</button>
+            查询你的荒野行动战绩
         </div>
     </div>
 </template>
@@ -18,7 +11,6 @@ import index from './index';
 export default{
     data(){
         return{
-            name: '',
         }
     },
     mounted(){
@@ -52,3 +44,7 @@ export default{
     },
 }
 </script>
+
+<style type="text/css">
+
+</style>

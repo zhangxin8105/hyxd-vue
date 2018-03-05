@@ -3,7 +3,10 @@ const state = {
 };
 
 const getters = {
-    getName: state => {return state.name}
+    getName: state => {
+        console.log(state);
+        // return state.name;
+    }
 };
 
 const actions = {

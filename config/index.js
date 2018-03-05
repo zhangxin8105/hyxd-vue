@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/hyxd': {
-            target: 'https://ypw.netease.com/api',
+            target: 'https://ypw.netease.com/api/v2/box/wilder',
             changeOrigin: true,
             pathRewrite: {
                 '^/hyxd': '',
