@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="width: 375px">
         <div class="hyxd_body">
             <div class="xui_item">
                 <label>your name: </label>
